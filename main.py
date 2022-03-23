@@ -25,16 +25,23 @@ while True:
             layout = [
                 [sg.Text("Uh oh!")],
                 [sg.Text("The student you searched was not found.")],
+                [sg.Text(f"Query: {student.capitalize()}")],
                 [sg.Button("OK")]
             ]
         else:
             birthday = data[student]["birthday"]
+            discord_username = data[student]["discord-username"]
 
-            if birthday == None:
+            if data[student]["birthday"] == None:
                 birthday = "Unknown"
 
+            if data[student]["discord-username"] == None:
+                discord_username = "Unknown"
+
             layout = [
+                [sg.Text("Query:"), sg.Text(student.capitalize())],
                 [sg.Text("Birthday:"), sg.Text(birthday)],
+                [sg.Text("Discord Username:"), sg.Text(discord_username)],
                 [sg.Button("OK")]
             ]
 
