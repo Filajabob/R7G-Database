@@ -1,120 +1,149 @@
 {
-  "students": {
-    "Lucas": {
-      "birthday": "2009-04-25",
-      "discord-username": "SavageTM#5720"
-    },
-    "Elliot": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Saad": {
-      "birthday": "2009-01-14",
-      "discord-username": null
-    },
-    "Aisha": {
-      "birthday": null,
-      "discord-username": "Aya#9117"
-    },
-    "Lana": {
-      "birthday": null,
-      "discord-username": "LANA#0103"
-    },
-    "Lamees": {
-      "birthday": null,
-      "discord-username": "strawberry#9008"
-    },
-    "Raber": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Spencer": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Xander": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Tanmeet": {
-      "birthday": null,
-      "discord-username": "t a n m a n#3956"
-    },
-    "Milix": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Muhammad": {
-      "birthday": null,
-      "discord-username": "Jxt#0001"
-    },
-    "Malik": {
-      "birthday": null,
-      "discord-username": "WhosMJ#2681"
-    },
-    "Vissar": {
-      "birthday": null,
-      "discord-username": "space#5522"
-    },
-    "Phosa": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Daryn": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Sam": {
-      "birthday": null,
-      "discord-username": "Lil Timmy#0808"
-    },
-    "Turner": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Bushra": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Huda": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Nosa": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Emama": {
-      "birthday": null,
-      "discord-username": "Too Complicated"
-    },
-    "Jackson": {
-      "birthday": null,
-      "discord-username": "jackson.n#1367"
-    },
-    "Maryam": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Sabiq": {
-      "birthday": "2009-08-29",
-      "discord-username": "czx#5581"
-    },
-    "Ky": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Asim": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Angela": {
-      "birthday": null,
-      "discord-username": null
-    },
-    "Liam": {
-      "birthday": "2009-04-25",
-      "discord-username": "Filajabob#4805"
+    "students": {
+        "Lucas": {
+            "birthday": "2009-04-25",
+            "discord-username": "SavageTM#5720",
+            "friends": null
+        },
+        "Elliot": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Saad": {
+            "birthday": "2009-01-14",
+            "discord-username": null,
+            "friends": null
+        },
+        "Aisha": {
+            "birthday": null,
+            "discord-username": "Aya#9117",
+            "friends": null
+        },
+        "Lana": {
+            "birthday": null,
+            "discord-username": "LANA#0103",
+            "friends": null
+        },
+        "Lamees": {
+            "birthday": null,
+            "discord-username": "strawberry#9008",
+            "friends": null
+        },
+        "Raber": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Spencer": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Xander": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Tanmeet": {
+            "birthday": null,
+            "discord-username": "t a n m a n#3956",
+            "friends": null
+        },
+        "Milix": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Muhammad": {
+            "birthday": null,
+            "discord-username": "Jxt#0001",
+            "friends": null
+        },
+        "Malik": {
+            "birthday": null,
+            "discord-username": "WhosMJ#2681",
+            "friends": null
+        },
+        "Vissar": {
+            "birthday": null,
+            "discord-username": "space#5522",
+            "friends": null
+        },
+        "Phosa": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Daryn": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Sam": {
+            "birthday": null,
+            "discord-username": "Lil Timmy#0808",
+            "friends": null
+        },
+        "Turner": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Bushra": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Huda": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Nosa": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Emama": {
+            "birthday": null,
+            "discord-username": "Too Complicated",
+            "friends": null
+        },
+        "Jackson": {
+            "birthday": null,
+            "discord-username": "jackson.n#1367",
+            "friends": null
+        },
+        "Maryam": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Sabiq": {
+            "birthday": "2009-08-29",
+            "discord-username": "czx#5581",
+            "friends": null
+        },
+        "Ky": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Asim": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Angela": {
+            "birthday": null,
+            "discord-username": null,
+            "friends": null
+        },
+        "Liam": {
+            "birthday": "2009-04-25",
+            "discord-username": "Filajabob#4805",
+            "friends": null
+        }
     }
-  }
 }

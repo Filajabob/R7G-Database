@@ -5,7 +5,7 @@ def menu():
 
     layout = [
         [sg.Text("Welcome to the R7G Database! Please select one of the branches to go to.")],
-        [sg.Button("Student Lookup"), sg.Button("Edit Fields")]
+        [sg.Button("Student Lookup"), sg.Button("Edit Fields"), sg.Button("Quit")]
     ]
 
     window = sg.Window("R7G Database - Menu", layout)
@@ -17,3 +17,6 @@ def menu():
     elif event == "Edit Fields":
         window.close()
         return "Edit Fields"
+    elif event == "Quit":
+        window.close()
+        return "Closed"

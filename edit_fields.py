@@ -48,7 +48,7 @@ def edit_fields():
                     data["students"][query][key] = value
 
                 f.seek(0)
-                json.dump(data, f, indent=2)
+                json.dump(data, f, indent=4)
                 f.truncate()
 
             confirmation = [
@@ -68,4 +68,41 @@ def edit_fields():
                 return "Closed"
 
     elif event == "Add New Fields":
-        pass
+        layout = [
+            [sg.Text("Add new field:"), sg.InputText(key="field")],
+            [sg.Submit(), sg.Cancel()]
+        ]
+
+        window.close()
+        window = sg.Window("R7G Database - Add New Field", layout)
+        event, values = window.read()
+
+        if event == "Submit":
+            with open("stats/students.json", 'r+') as f:
+                data = json.load(f)
+
+                for student, fields in data["students"].items():
+                    data["students"][student][values["field"].lower().replace(' ', '-')] = None
+
+                f.seek(0)
+                json.dump(data, f, indent=4)
+                f.truncate()
+
+            resp_layout = [
+                [sg.Text("Your changes have been saved.")],
+                [sg.Button("OK"), sg.Button("Menu")]
+            ]
+
+            window.close()
+            resp_window = sg.Window("R7G Database - Add New Field - Results", resp_layout)
+            event, values = resp_window.read()
+
+            if event == "Menu":
+                resp_window.close()
+                return "Menu"
+            else:
+                resp_window.close()
+                return "Closed"
+                    
+        else:
+            return "Closed"

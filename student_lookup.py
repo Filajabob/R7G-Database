@@ -5,8 +5,7 @@ def student_lookup():
     sg.theme("DarkAmber")
 
     layout = [    
-        [sg.Text("Welcome to the R7G Database!")],
-        [sg.Text("Start by looking up a student (first name):"), sg.InputText()],
+        [sg.Text("Input a student's first name:"), sg.InputText()],
         [sg.Submit(), sg.Cancel()]
     ]
 
