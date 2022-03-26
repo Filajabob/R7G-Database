@@ -2,6 +2,7 @@ from student_lookup import student_lookup
 from menu import menu
 from edit_fields import edit_fields
 from list_students import list_students
+from manage_json import manage_json
 
 while True:
     menu_res = menu()
@@ -19,6 +20,12 @@ while True:
 
     elif menu_res == "List Students":
         if list_students() == "Menu":
+            continue
+        else:
+            break
+
+    elif menu_res == "JSON":
+        if manage_json() == "Menu":
             continue
         else:
             break
